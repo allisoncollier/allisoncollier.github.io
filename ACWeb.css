@@ -142,3 +142,13 @@ i:hover{
     padding: 5px;
     text-align: center;
  }
+ 
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+.carousel-caption{ position: static; }
+
+.carousel-control .left .right{
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+}
