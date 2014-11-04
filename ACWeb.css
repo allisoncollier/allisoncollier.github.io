@@ -152,3 +152,25 @@ i:hover{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+hr{
+    border-color: #C2006E;
+}
+
+.modal-header {
+    background-color: #C2006E;
+}
+
+.modal-content {
+  background-color: #4E4E4E;
+}
+.modal-body {
+  background-color: #4E4E4E;
+}
+
+h4{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
