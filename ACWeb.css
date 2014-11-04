@@ -202,3 +202,7 @@ i{
 .black{
     background-color: #333;
 }
+
+.fa{
+    -webkit-text-stroke: 0.75px black;
+}
