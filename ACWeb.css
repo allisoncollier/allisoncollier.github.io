@@ -106,11 +106,8 @@ i:hover{
 }
 
 .social{
-    font-size: 65px;
+    font-size: 10em;
     color: #C2006E;
-    text-align: right;
-    margin-left: auto;
-    padding-top: 10px;
 }
 
 .pull-right{
