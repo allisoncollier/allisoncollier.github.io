@@ -30,7 +30,7 @@ body {
     /*background-image: url("polka-40-40.png");
 	background-color: #00ced1;*/
 	background: ##ff00af;
-    background-image: url("zenbg-1.png"), url("zenbg-2.png");
+    background-image: url("ZenBG-1.png"), url("ZenBG-2.png");
     background-repeat: repeat-y, repeat;
 }
 
