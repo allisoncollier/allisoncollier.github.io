@@ -4,7 +4,7 @@ h2{
     text-align: center;
     padding-bottom: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#4E4E4E;
+    color:white;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
     font-weight: bold;
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
-    color:#4E4E4E;
+    color:#C2006E;
 }
 
 
@@ -22,12 +22,16 @@ p {
 	color: #C2006E;
 	text-align: center;
 	padding-top: 20px;
+	text-shadow: 2px 2px 8px black;
 }
 
 
 body {
-    background-image: url("polka-40-40.png");
-	/*background-color: #00ced1;*/
+    /*background-image: url("polka-40-40.png");
+	background-color: #00ced1;*/
+	background: ##ff00af;
+    background-image: url("zenbg-1.png"), url("zenbg-2.png");
+    background-repeat: repeat-y, repeat;
 }
 
 .bs-example {
@@ -37,7 +41,7 @@ body {
 
 .acBorder {
     border-style: solid;
-    border-color: #178EC9;
+    border-color: #333;
     border-width: 10px;
 }
 
@@ -55,7 +59,7 @@ h3{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.5em;
     font-weight: bold;
-    color:#4E4E4E;
+    color: white;
 }
 
 
@@ -80,7 +84,7 @@ i:hover{
 }
 
 .projectPanel{
-    background-color: #178EC9;
+    background-color: #333;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -202,4 +206,14 @@ i{
 
 .fa{
     -webkit-text-stroke: 0.75px black;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
