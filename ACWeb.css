@@ -70,12 +70,12 @@ span{
 }
 
 a:link{
-    color:#4E4E4E;
+    color: white;
 }
 
 a:hover{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 i:hover{
@@ -138,7 +138,7 @@ i:hover{
  }
 
  .pic-caption{
-    background-color: #178EC9;
+    background-color: #333;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
@@ -168,14 +168,6 @@ hr{
 .modal-body {
   background-color: #4E4E4E;
 }
-
-h4{
-    font-weight: bold;
-    color: white;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 
 h4{
     font-weight: bold;
