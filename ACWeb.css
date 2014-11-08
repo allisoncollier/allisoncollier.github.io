@@ -109,9 +109,20 @@ i:hover{
     text-align: center;
 }
 
-.social{
-    font-size: 400%;
-    color: #C2006E;
+/* Small Devices, Tablets and smaller */
+@media only screen and (max-width : 768px) {
+    .social{
+        font-size: 400%;
+        color: #C2006E;
+    }
+}
+
+/* Medium Screens and up*/
+@media only screen and (min-width : 769px) {
+    .social{
+        font-size: 500%;
+        color: #C2006E;
+    }
 }
 
 .pull-right{
